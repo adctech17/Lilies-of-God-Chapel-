@@ -669,3 +669,52 @@
         }
     </style>
 </head>
+<body>
+<header id="header">
+    <div class="container nav-container">
+        <div class="logo-area">
+            <div class="logo-icon">✝</div>
+            <div class="logo-text">
+                Lilies of <span>God</span>
+                <small>Church • Aburi</small>
+            </div>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#community">Community</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonies</a></li>
+            <li><a href="#contact" class="nav-cta">Contact Us</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    </div>
+</header>
+<div class="nav-overlay" id="navOverlay"></div>
+<section class="hero" id="home">
+    <div class="container hero-grid">
+        <div class="hero-content fade-up">
+            <div class="location-tag"><i class="fas fa-map-pin"></i> Roadside • Aburi • Near the School & Market</div>
+            <h1>Welcome to <br /><span class="highlight">Lilies of God</span></h1>
+            <p class="subtitle">Glorifying God, Serving the Community.</p>
+            <p>We are a family of faith located right here in your neighborhood. Whether you're a business owner, a student, or a family — you are welcome home.</p>
+            <div class="hero-buttons">
+                <a href="#community" class="btn btn-primary"><i class="fas fa-hand-holding-heart"></i> Join Our Community</a>
+                <a href="#services" class="btn btn-outline"><i class="fas fa-clock"></i> Service Times</a>
+            </div>
+        </div>
+        <div class="hero-visual fade-up" style="transition-delay:0.2s;">
+            <div class="hero-card">
+                <div class="card-icon"><i class="fas fa-bell"></i></div>
+                <h3>Next Service</h3>
+                <div class="service-time">Sunday Worship &amp; Word</div>
+                <div class="countdown-box" id="countdown">
+                    <div class="countdown-item"><span id="days">00</span><small>Days</small></div>
+                    <div class="countdown-item"><span id="hours">00</span><small>Hrs</small></div>
+                    <div class="countdown-item"><span id="minutes">00</span><small>Min</small></div>
+                    <div class="countdown-item"><span id="seconds">00</span><small>Sec</small></div>
+                </div>
+                <a href="#contact" class="btn btn-primary"><i class="fas fa-phone-alt"></i> I'm Coming, Guide Me</a>
+            </div>
+        </div>
+    </div>
+</section>
